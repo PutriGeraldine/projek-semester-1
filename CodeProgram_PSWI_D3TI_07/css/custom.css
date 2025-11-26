@@ -1,0 +1,283 @@
+/* Custom CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+}
+
+.text-SD {
+  color: #FFF;
+  font-family: IBM Plex Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.font-primary {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.font-secondary {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-third {
+  color: #FFF;
+}
+
+.bg-light {
+  background: #efefef;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.navbar {
+  height: 75px;
+  background-color: #606060;
+  flex-shrink: 0;
+}
+
+.navbar .navbar-brand img {
+  height: 60px;
+  border-radius: 110px;
+}
+
+.navbar-nav {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  border-radius: 19.19px 19px 19px 19px;
+  color: #F5980C;
+  background-color: #F5F5F5;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+#menu {
+  background-color: #F5980C;
+  border-radius: 65px;
+}
+
+#menu .text-center {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Lily Script One;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#menu .container {
+  border-radius: 32px;
+  background: #000;
+  width: 1291px;
+  height: 697px;
+  flex-shrink: 0;
+}
+
+#menu a .img-fluid {
+  width: 110.756px;
+  height: 109.756px;
+  flex-shrink: 0;
+  border-radius: 110.756px;
+}
+
+.gallery-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.gallery-box p {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Habibi;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+/* home */
+.masthead {
+  background: url("../img/menara4.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-radius: 65px;
+  flex-shrink: 0;
+}
+
+.masthead .caption-wrapper {
+  margin-top: 15rem;
+}
+
+.masthead .hero-text {
+  color: #F5980C;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.masthead .tagline {
+  font-size: 20px;
+}
+
+#aboutus {
+  background-color: #021723;
+}
+
+#aboutus .container {
+  border-radius: 32px;
+  background: #000;
+  width: 1291px;
+  height: 697px;
+  flex-shrink: 0;
+}
+
+#aboutus a .img-fluid {
+  width: 110.756px;
+  height: 109.756px;
+  flex-shrink: 0;
+  border-radius: 110.756px;
+}
+
+#aboutus a{
+  margin-bottom: 10px;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Habibi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+#aboutus .text-center {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Lily Script One;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* call to action */
+#call-to-action {
+  background: rgb(33, 26, 26);
+  background: linear-gradient(121deg, rgba(33, 26, 26, 1) 0%, rgba(64, 0, 145, 1) 90%);
+  min-height: 350px;
+}
+
+#call-to-action h1 {
+  font-size: 2.5rem;
+}
+
+/* selamat datang */
+#about .welcome p {
+  display: flex;
+  flex-direction: column;
+  color: #EDEDED;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contact {
+  background: url(../img/menara2.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-radius: 65px;
+  flex-shrink: 0;
+  color: #FFF;
+}
+
+#contact h1{
+font-family: Montserrat;
+font-size: 61.535px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#contact h4{
+  color: #F5980C;
+font-family: Habibi;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#contact p{
+  color: #FFF;
+font-family: Habibi;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#contact a{
+  color: #FFF;
+}
+
+footer {
+  background-color: #606060;
+  opacity: 0.5;
+  height: 37px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Habibi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .navbar .navbar-collapse .navbar-nav {
+    padding: 1rem 0;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-link {
+    text-align: center;
+  }
+
+  .gallery-box {
+    width: 100%;
+ }
+}
